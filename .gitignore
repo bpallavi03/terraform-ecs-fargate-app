@@ -1,0 +1,27 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (Contains secrets/credentials - DO NOT COMMIT)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive variables files
+*.tfvars
+*.tfvars.json
+
+# Ignore local variable override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include lock file (recommended for team workflows, optional for personal)
+!.terraform.lock.hcl
+
+# Python local build files
+**/__pycache__/
+*.pyc
